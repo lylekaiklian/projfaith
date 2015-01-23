@@ -254,6 +254,34 @@ hr {
 	background-position-y: 45%;
 }
 
+#third .tabs-content .content .img-13 {
+	background: url(../img/fashion13.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 4%;
+}
+
+#third .tabs-content .content .img-14 {
+	background: url(../img/fashion14.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 4%;
+}
+
+#third .tabs-content .content .img-15 {
+	background: url(../img/fashion15.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 18%;
+}
+
+#third .tabs-content .content .img-16 {
+	background: url(../img/fashion16.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 0%;
+}
+
 #third .tabs-content .wedding-grid .img-1 {
 	background: url(../img/wedding1.jpg);
 	background-size: cover;
@@ -332,6 +360,13 @@ hr {
 	background: url(../img/wedding12.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+#third .tabs-content .conceptual-grid .img-1 {
+	background: url(../img/conceptual.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
 }
 
 .tabs dd.active a {
