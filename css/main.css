@@ -168,6 +168,51 @@ hr {
 	height: 200px;
 	background-color: #ffffff;
 	margin-bottom: 20px;
+	-webkit-transition: all .5s;
+}
+
+#third .tabs-content .content .image-container2 {
+	height: 200px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	-webkit-transition: all .5s;
+}
+
+#third .tabs-content .content .image-container-custom {
+	height: 200px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	-webkit-transition: all .5s;
+}
+
+#third .tabs-content .content .image-container:hover {
+	height: 400px;
+
+}
+
+#third .tabs-content .content .image-container2:hover {
+	height: 400px;
+	background-position: -182px;
+}
+
+#third .tabs-content .content .image-container-custom:hover {
+	height: 400px;
+	background-position: -76px;
+}
+
+#third .tabs-content .content .fairy:hover {
+	height: 400px;
+	background-position: -130px;	
+}
+
+#third .tabs-content .content .groom:hover {
+	height: 400px;
+	background-position: -185px;	
+}
+
+#third .tabs-content .content .class280:hover {
+	height: 400px;
+	background-position: -280px;	
 }
 
 #third .tabs-content .content .img-1 {
