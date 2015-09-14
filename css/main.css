@@ -94,9 +94,11 @@ hr {
 
 #second {
 	background-color: #0f0f0f;
-	background: url(http://api.thumbr.it/whitenoise-361x370.png?background=#0f0f0fff&noise=626262&density=36&opacity=23);
-	/*background: url(../img/bg.jpg);*/
-	/*background-repeat: no-repeat;*/
+	/*background: url(http://api.thumbr.it/whitenoise-361x370.png?background=#0f0f0fff&noise=626262&density=36&opacity=23);*/
+	background: url(../img/second.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	height: auto;
 	padding-top: 80px;
 	padding-bottom: 100px;
@@ -154,7 +156,7 @@ hr {
 	height: auto;
 	padding-top: 80px;
 	padding-bottom: 100px;
-	background-color: #1f1f1f;
+	background-color: #F5F5F5;
 }
 
 #third .tabs dd a {
