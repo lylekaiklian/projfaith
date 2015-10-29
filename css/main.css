@@ -1,670 +1,73 @@
-/*body {
-	font-family: 'Oswald', sans-serif;
-}*/
-
-.top-bar {
-  position: fixed !important;
-  z-index: 1000;
-  width: 100%;
-  background: #242424;
-}
-
-.top-bar-section ul li a {
-background: #242424 !important;
-}
-
-.center-top-bar {
-	width: 100%;
-	height: 3em;
-	margin: 0;
-	text-align: center;
-	}
-
-.center-top-bar ul {
-	height: auto;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-}
-
-#custom-nav a {
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	font-size: 15pt;
-}
-
-#custom-nav a:hover {
-	color: #7f2135;
-}
-
-#first {
-	/*background: url(http://fc06.deviantart.net/fs70/f/2014/151/9/1/first_by_payazoh-d7kgkuy.jpg);*/
-	background: url(../img/bg.jpg);
+body {
+	background: url(../img/sample-bg.jpg);
 	background-size: cover;
-	background-position-x: -11px;
-	height: 800px;
-	padding-left: 80px;
-	-webkit-box-shadow: 0 5px 10px -4px #131313;
-     -moz-box-shadow: 0 5px 10px -4px #131313;
-          box-shadow: 0 5px 10px -4px #131313;
 }
 
-.main-intro {
-	color: #ffffff;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-size: 67pt;
-	margin-top: 310px;
-	margin-bottom: -10px;
+.menu-icon {
+	max-width: 20px;
+	margin-top: 20px;
 }
 
-.intro {
-	color: #ffffff;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-size: 42pt;
-	margin-top: 50px;
-	margin-bottom: -10px;
+.custom-black-dd {
+  background: rgba(0,0,0,.3) !important;
+  color: white !important;
+  border-radius: 0 !important;
+  padding: 20px 5px 20px 5px !important;
+  border: none !important;
+  left: 10px !important;
 }
 
-.black {
-	color: #000000;
-}
-
-.maroon {
-	color: #7f2135;
-}
-
-
-
-.sub-intro {
-	color: #ffffff;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 10;
-	letter-spacing: 11px;
-	font-size: 15pt;
-	margin-top: -31px;
-	margin-left: 4px;
-}
-
-hr {
-	border: 1px solid #000000;
-}
-
-#second {
-	background-color: #0f0f0f;
-	/*background: url(http://api.thumbr.it/whitenoise-361x370.png?background=#0f0f0fff&noise=626262&density=36&opacity=23);*/
-	background: url(../img/second.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	height: auto;
-	padding-top: 80px;
-	padding-bottom: 100px;
-
-	-webkit-box-shadow: 0 5px 10px -4px #131313;
-     -moz-box-shadow: 0 5px 10px -4px #131313;
-          box-shadow: 0 5px 10px -4px #131313;
-}
-
-#second p {
-	color: #1f1f1f;
-}
-
-.gpoy {
-	height: 199px;
-	background: url(../img/gpoy2.jpg);
-	background-size: cover;
-	background-position-x: -4px;
-	background-repeat: no-repeat;
-	background-color: #1f1f1f;
-	background-position-y: -30px;
-}
-
-.about-me {
-	color: #1f1f1f;
-	font-weight: lighter;
-	letter-spacing: 1px;
-	line-height: 30px;
-}
-
-.social-links {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-.social-icon {
-	height: 50px;
-	width: 50px;
-	background-color: #000000;
-	border-radius: 28px;
+.custom-black-dd li {
 	margin-bottom: 5px;
-	-webkit-transition: all .25s;
 }
 
-
-.tabs-content {
-	-webkit-transition: all 1s;
+.custom-black-dd li a {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+  color: white !important;
+  text-transform: uppercase !important;
+  font-weight: lighter !important;
+  letter-spacing: 2px !important;
+  -webkit-transition: all .5s ease;
+  -moz-transition:    all .5s ease;
+  -o-transition:      all .5s ease;
+     transition:      all .5s ease;  
 }
 
-.social-icon:hover {
-	background-color: #7f2135;
+.custom-black-dd li a:hover {
+	background: rgba(0,0,0,.4) !important;
 }
 
-#third {
-	height: auto;
-	padding-top: 80px;
-	padding-bottom: 100px;
-	background-color: #F5F5F5;
+.home {
+	margin-top: 50px;
 }
 
-#third .tabs dd a {
-	color: #ffffff;
-	background: none;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-}
-
-#third .tabs-content .content .image-container {
-	height: 200px;
-	background-color: #ffffff;
-	margin-bottom: 20px;
-	-webkit-transition: all .5s;
-}
-
-#third .tabs-content .content .image-container2 {
-	height: 200px;
-	background-color: #ffffff;
-	margin-bottom: 20px;
-	-webkit-transition: all .5s;
-}
-
-#third .tabs-content .content .image-container-custom {
-	height: 200px;
-	background-color: #ffffff;
-	margin-bottom: 20px;
-	-webkit-transition: all .5s;
-}
-
-#third .tabs-content .content .image-container:hover {
-	height: 400px;
-
-}
-
-#third .tabs-content .content .image-container2:hover {
-	height: 400px;
-	background-position: -182px;
-}
-
-#third .tabs-content .content .image-container-custom:hover {
-	height: 400px;
-	background-position: -76px;
-}
-
-#third .tabs-content .content .fairy:hover {
-	height: 400px;
-	background-position: -130px;	
-}
-
-#third .tabs-content .content .groom:hover {
-	height: 400px;
-	background-position: -185px;	
-}
-
-#third .tabs-content .content .class280:hover {
-	height: 400px;
-	background-position: -280px;	
-}
-
-#third .tabs-content .content .img-1 {
-	background: url(../img/fashion.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 35%;
-}
-
-#third .tabs-content .content .img-2 {
-	background: url(../img/fashion2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 14%;
-}
-
-#third .tabs-content .content .img-3 {
-	background: url(../img/fashion3.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 17%;
-}
-
-#third .tabs-content .content .img-4 {
-	background: url(../img/fashion4.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 17%;
-}
-
-#third .tabs-content .content .img-5 {
-	background: url(../img/fashion5.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 17%;
-}
-
-#third .tabs-content .content .img-6 {
-	background: url(../img/fashion6.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 17%;
-}
-
-#third .tabs-content .content .img-7 {
-	background: url(../img/fashion7.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 42%;
-}
-
-#third .tabs-content .content .img-8 {
-	background: url(../img/fashion8.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 15%;
-}
-
-#third .tabs-content .content .img-9 {
-	background: url(../img/fashion9.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .content .img-10 {
-	background: url(../img/fashion10.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .content .img-11 {
-	background: url(../img/fashion11.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .content .img-12 {
-	background: url(../img/fashion12.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .content .img-13 {
-	background: url(../img/fashion13.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 4%;
-}
-
-#third .tabs-content .content .img-14 {
-	background: url(../img/fashion14.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 4%;
-}
-
-#third .tabs-content .content .img-15 {
-	background: url(../img/fashion15.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 18%;
-}
-
-#third .tabs-content .content .img-16 {
-	background: url(../img/fashion16.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 0%;
-}
-
-#third .tabs-content .wedding-grid .img-1 {
-	background: url(../img/wedding1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .wedding-grid .img-2 {
-	background: url(../img/wedding2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .wedding-grid .img-3 {
-	background: url(../img/wedding3.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 45%;
-}
-
-#third .tabs-content .wedding-grid .img-4 {
-	background: url(../img/wedding4.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 14%;
-}
-
-#third .tabs-content .wedding-grid .img-5 {
-	background: url(../img/wedding5.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 50%;
-}
-
-#third .tabs-content .wedding-grid .img-6 {
-	background: url(../img/wedding6.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 14%;
-}
-
-#third .tabs-content .wedding-grid .img-7 {
-	background: url(../img/wedding7.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 50%;
-}
-
-#third .tabs-content .wedding-grid .img-8 {
-	background: url(../img/wedding8.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#third .tabs-content .wedding-grid .img-9 {
-	background: url(../img/wedding9.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 85%;
-}
-
-#third .tabs-content .wedding-grid .img-10 {
-	background: url(../img/wedding10.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#third .tabs-content .wedding-grid .img-11 {
-	background: url(../img/wedding11.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#third .tabs-content .wedding-grid .img-12 {
-	background: url(../img/wedding12.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#third .tabs-content .conceptual-grid .img-1 {
-	background: url(../img/conceptual.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position-y: 50%;
-}
-
-.tabs dd.active a {
-	color: #7f2135 !important;
-}
-
-.tabs dd a {
-	-webkit-transition: all .5s;
-}
-
-.tabs dd a:hover {
-	color: #7f2135 !important;
-}
-
-.skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#eee;
-	height:35px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
-}
-
-.skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-    width:200px;
-	font-weight:bold;
-	font-size:13px;
-	color:#ffffff;
-	background:#6adcfa;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
-}
-
-.skill-bar-container {
+.home .spiel-container {
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-#fourth {
-	height: auto;
-	padding-left: 0;
-	padding-right: 0;
-	background-color: #000000;
+.home .spiel-container span {
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	line-height: 3;
+
 }
 
-.wedding {
-	background: url(http://37.media.tumblr.com/ef847f2d07cd1ffc1babbff4efc12108/tumblr_mhhyvqPjTh1qk26nio1_500.jpg);
-	background-size: cover;
-	height: 700px;
-	background-repeat: no-repeat;
-	background-position: -26px;
-
-	-webkit-transition: all 1s;
+.logo {
+	max-width: 500px;
 }
 
-.wedding .intro {
-	opacity: 0;
-	-webkit-transition: all .5s;
-	margin-top: 300px;
-	text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+.next-button {
+	max-width: 40px;
+	opacity: .5;
+	-webkit-transition: all .5s ease;
+  -moz-transition:    all .5s ease;
+  -o-transition:      all .5s ease;
+     transition:      all .5s ease;  
 }
 
-.wedding:hover {
-	-webkit-filter: saturate(20%);
-}
-
-.wedding:hover .intro {
+.next-button:hover {
 	opacity: 1;
-}
-
-.fashion {
-	background: url(http://fc05.deviantart.net/fs71/f/2014/151/8/9/fashion_by_payazoh-d7kgiry.jpg);
-	background-size: cover;
-	height: 700px;
-	-webkit-transition: all .5s;
-	background-position-y: -363px;
-	background-repeat: no-repeat;
-}
-
-.fashion .intro {
-	opacity: 0;
-	-webkit-transition: all .5s;
-	margin-top: 300px;
-	text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-}
-
-.fashion:hover .intro {
-	opacity: 1;
-}
-
-.fashion:hover {
-	-webkit-filter: saturate(20%);
-}
-
-.border {
-	border: 1px solid #000000;
-}
-
-#fifth {
-	height: 400px;
-	background: url(../img/last2.jpg);
-	background-size: cover;
-}
-
-#footer {
-	height: 50px;
-	background-color: #333333;	
-	padding-top: 20px;
-}
-
-#footer p {
-	color: #ffffff;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 6pt;
-}
-
-textarea:focus, input:focus{
-    outline: 0;
-}
-
-.reveal-modal {
-	background: rgba(0,0,0,.9);
-	border: none;
-}
-
-#slider {
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px;
-}
-
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  list-style: none;
-}
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 900px;
-  height: auto;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
-}
-
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
-}
-
-.slider_option {
-  position: relative;
-  margin: 10px auto;
-  width: 160px;
-  font-size: 18px;
 }
