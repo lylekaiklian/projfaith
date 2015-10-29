@@ -3,353 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LYLE|R</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <!-- <link rel="stylesheet" href="http://static.tumblr.com/tcgqxd9/OVpn6g340/main.css" /> -->
+    <title>infoshift</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/main2.css" />
-
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link src="js/bootstrap.js" />
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/smooth-scroll.js"></script>
-    <script src="js/wookmark.js"></script>
-    <script src="http://static.tumblr.com/tcgqxd9/B2un262sb/jquery.js"></script>
-    <script src="http://static.tumblr.com/tcgqxd9/DGXn262t2/foundation.min.js"></script>
-    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/anims.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
     
   </head>
   <body>
-    <div class="sticky">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-         
-        </li>
-         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        <!-- Left Nav Section -->
-        <ul id="custom-nav">
-          <li><a data-scroll href="#first">home</a></li>
-          <li><a data-scroll href="#second">about</a></li>
-          <li><a data-scroll href="#third">portfolio</a></li>
-          <li><a data-scroll href="#fifth">contacts</a></li>
+    <div class="header-panel col-sm-12">
+      <div class="dropdown col-sm-2">
+        <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <img class="menu-icon" src="img/menu.png">
+        </a>
+        <ul class="dropdown-menu custom-black-dd" aria-labelledby="dropdownMenu1">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">products</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">careers</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contacts</a></li>
         </ul>
-      </section>
-    </nav>
-    </div> 
-
-    <div id="first" class="large-12 columns">
-      <div class="large-6 columns large-offset-3 text-center" style="margin-left: 23% !important">
-        <p class="main-intro">
-          lyle
-          <span class="main-intro" style="color: #59212D; margin-left: -9px;"> kaiklian </span>
-        </p>
-        <p class="sub-intro">photographer<span class="sub-intro" style="color: #59212D;"> x </span>web designer</p>
       </div>
     </div>
-
-    <div id="second" class="large-12 columns">
-      <div class="large-8 columns large-offset-2">
-        <p class="intro text-center black">about</p>
-        <hr>
-        
-        <div class="large-12 columns about-me">
-          Hi! My name is Lyle Kaiklian. A self-proclaimed fashion photographer based in Manila, Philippines. Photography is my calling, my passion, something that I will not get tired of doing every effing day. I specialized in wedding and fashion photography and would love to do more editorial/conceptual photography.
-        </div>
-        <div class="row text-center large-10 columns">
-          <div class="social-links text-center large-6 columns large-offset-4">
-            <div class="large-3 columns text-center">
-              <a class="text-center" href="https://www.facebook.com/lylersphotography" target="_blank">
-                <div class="social-icon text-center">
-                  <img src="http://static.tumblr.com/tcgqxd9/uDUn2hcjl/fb.png">
-                </div>
-              </a>
-            </div>
-
-            <div class="large-3 columns">
-              <a href="https://www.twitter.com/lylekaiklian" target="_blank">
-                <div class="social-icon">
-                  <img src="http://static.tumblr.com/tcgqxd9/h5Rn2hckh/twitter.png">
-                </div>
-              </a>
-            </div>
-
-            <div class="large-3 columns">
-              <a href="http://instagram.com/lyleMNL" target="_blank">
-                <div class="social-icon">
-                  <img src="http://static.tumblr.com/tcgqxd9/5L3n2hcl6/ig.png">
-                </div>
-              </a>
-            </div>
-
-            <div class="large-3 columns">
-              <a href="http://lylers.vsco.co" target="_blank">
-                <div class="social-icon">
-                  <img src="http://static.tumblr.com/tcgqxd9/QHBn2hclq/vsco.png">
-                </div>
-              </a>
-            </div>
-          </div>
-
-
-        </div>
-        <hr>
+    <div class="home col-sm-12">
+      <div class="col-sm-4 col-sm-offset-4">
+        <img class="col-sm-12 logo" src="img/temp-logo.png">
       </div>
-    </div>
-
-    <div id="third" class="large-12 columns">
-      <p class="intro text-center maroon" style="margin-top: 0px;">photography</p>
       <br>
-      <div class='text-center'>
-        <ol id="filters">
-          <li data-filter="all">All</li>
-          <li data-filter="fashion">fashion</li>
-          <li data-filter="wedding">wedding</li>
-          <li data-filter="conceptual">conceptual</li>
-        </ol>
+      <div class="col-sm-8 col-sm-offset-2 text-center spiel-container">
+        <span class="text-center">A platform engineering company that specialises in enterprise-grade platforms
+        <br>
+        for all segments. We build platform middleware products that are designed to
+        <br>
+        help speed up the innovation process and to meet customer needs.
+        </span>
       </div>
-        <div role="main">
-      <ul id="container" class="tiles-wrap animated">
-        <!--
-          These are our grid items. Notice how each one has classes assigned that
-          are used for filtering. The classes match the "data-filter" properties above.
-          -->
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion2.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion3.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion4.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion5.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion6.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion7.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion8.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion9.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion10.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion11.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion12.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion13.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion14.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion15.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion16.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion17.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion18.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion19.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["fashion"]'>
-          <img src="img/fashion20.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["fashion", "conceptual"]'>
-          <img src="img/conceptual.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["fashion", "conceptual"]'>
-          <img src="img/conceptual2.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["fashion", "conceptual"]'>
-          <img src="img/conceptual3.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["conceptual"]'>
-          <img src="img/conceptual4.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["conceptual", "fashion"]'>
-          <img src="img/conceptual5.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding1.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding2.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding3.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding4.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding5.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding6.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding7.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding8.jpg" height="158" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding9.jpg" height="283" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding10.jpg" height="300" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding11.jpg" height="252" width="200">
-        </li>
-        <li data-filter-class='["wedding"]'>
-          <img src="img/wedding12.jpg" height="158" width="200">
-        </li>
-        <!-- End of grid blocks -->
-      </ul>
-
+      <div class="row"></div>
+      <div class="row text-center">
+        <img class="next-button" src="img/down.png">
+      </div>
     </div>
-    </div>
-
-    <!-- <div id="fifth" class="large-12 columns" style="height: 800px;">
-      
-    </div> -->
-
-    <div id="footer" class="large-12 columns text-center">
-      <p class="text-center">Copyright © 2014 lylekaiklian</p>
-    </div>
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-      $(document).ready(function(){
-        $('.fbTopBar').hide();
-        $('.skillbar').each(function(){
-          $(this).find('.skillbar-bar').animate({
-            width:$(this).attr('data-percent')
-          },3000);
-        });
-      });
-      smoothScroll.init();
-    </script>
-
     
-    <script type="text/javascript">
-      jQuery(document).ready(function ($) {
-
-      $('#checkbox').change(function(){
-        setInterval(function () {
-            moveRight();
-        }, 3000);
-      });
-      
-      var slideCount = $('#slider ul li').length;
-      var slideWidth = $('#slider ul li').width();
-      var slideHeight = $('#slider ul li').height();
-      var sliderUlWidth = slideCount * slideWidth;
-      
-      $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-      
-        $('#slider ul li:last-child').prependTo('#slider ul');
-
-        function moveLeft() {
-            $('#slider ul').animate({
-                left: + slideWidth
-            }, 200, function () {
-                $('#slider ul li:last-child').prependTo('#slider ul');
-                $('#slider ul').css('left', '');
-            });
-        };
-
-        function moveRight() {
-            $('#slider ul').animate({
-                left: - slideWidth
-            }, 200, function () {
-                $('#slider ul li:first-child').appendTo('#slider ul');
-                $('#slider ul').css('left', '');
-            });
-        };
-
-        $('a.control_prev').click(function () {
-            moveLeft();
-        });
-
-        $('a.control_next').click(function () {
-            moveRight();
-        });
-
-    });    
-
-    </script>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-
-  <!-- Include the imagesLoaded plug-in -->
-  <script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
-
-  <script type="text/javascript">
-    (function($) {
-      // Instantiate wookmark after all images have been loaded
-      var wookmark;
-      imagesLoaded('#container', function() {
-        wookmark = new Wookmark('#container', {
-          fillEmptySpace: true // Optional, fill the bottom of each column with widths of flexible height
-        });
-      });
-
-      // Setup filter buttons when jQuery is available
-      var $filters = $('#filters li');
-
-      /**
-       * When a filter is clicked, toggle it's active state and refresh.
-       */
-      function onClickFilter(e) {
-        $filters.removeClass('active');
-        var $item = $(e.currentTarget),
-            activeFilters = [],
-            filterType = $item.data('filter');
-
-        if (filterType === 'all') {
-          $filters.removeClass('active');
-        } else {
-          $item.toggleClass('active');
-
-          // Collect active filter strings
-          $filters.filter('.active').each(function() {
-            activeFilters.push($(this).data('filter'));
-          });
-        }
-
-        wookmark.filter(activeFilters, 'or');
-      }
-
-      // Capture filter click events.
-      $('#filters').on('click.wookmark-filter', 'li', onClickFilter);
-    })(jQuery);
-  </script>
   </body>
 </html>
