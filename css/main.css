@@ -3,43 +3,66 @@ body {
 	background-size: cover;
 }
 
+@font-face { 
+	font-family: bebas; src: url(../fonts/BebasNeue.otf); 
+} 
+
+.bebas {
+	font-family: bebas;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.wide {
+	letter-spacing: 2px;
+}
+
 .menu-icon {
 	max-width: 20px;
 	margin-top: 20px;
 }
 
-.custom-black-dd {
-  background: rgba(0,0,0,.3) !important;
-  color: white !important;
+.custom-dd {
+  background: none !important;
   border-radius: 0 !important;
   padding: 20px 5px 20px 5px !important;
   border: none !important;
   left: 10px !important;
+  box-shadow: none !important;
+	z-index: 1000;
 }
 
-.custom-black-dd li {
-	margin-bottom: 5px;
+.custom-dd li {
+	margin-bottom: 15px;  
 }
 
-.custom-black-dd li a {
+.custom-dd li a {
+	background: rgba(255,255,255,.4);
+	font-family: bebas;
 	padding-top: 5px !important;
 	padding-bottom: 5px !important;
-  color: white !important;
+  color: #000000 !important;
   text-transform: uppercase !important;
   font-weight: lighter !important;
   letter-spacing: 2px !important;
+	display: inline !important;
+	font-size: 	12pt;
   -webkit-transition: all .5s ease;
   -moz-transition:    all .5s ease;
   -o-transition:      all .5s ease;
      transition:      all .5s ease;  
 }
 
-.custom-black-dd li a:hover {
-	background: rgba(0,0,0,.4) !important;
+.custom-dd li a:hover {
+	background: rgba(255,255,255,.9);
+	padding-right: 90px;
 }
 
 .home {
 	margin-top: 50px;
+	padding-top: 50px;
 }
 
 .home .spiel-container {
@@ -60,6 +83,8 @@ body {
 }
 
 .next-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
 	max-width: 40px;
 	opacity: .5;
 	-webkit-transition: all .5s ease;
@@ -70,4 +95,16 @@ body {
 
 .next-button:hover {
 	opacity: 1;
+}
+.about {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	height: auto;
+	background: white;
+}
+
+.culture {
+	background: url(../img/culture.png);
+	height: 435px;
+	background-size: cover;
 }
